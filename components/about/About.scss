@@ -1,0 +1,136 @@
+.headercontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  top: 30%;
+  left: 2%;
+  text-align: left;
+}
+#front-text-of-about-image {
+  font-size: calc(10px + 1.2vw);
+  font-weight: 400;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#lower-about-header-text {
+  font-size: calc(6px + 0.7vw);
+  text-align: justify;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px #1a1a1a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#about-image-color-texture0 {
+  width: 100%;
+  height: 55px;
+  background-color: #333;
+}
+
+#about-image-color-texture {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+}
+
+#first-header-image {
+  width: 100%;
+  height: 80vh;
+}
+
+// remaining code
+// buttons code
+
+.buttons-Container {
+  margin-top: 15px;
+  // padding-top: 20px;
+}
+
+.about-button1 {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  text-shadow: 2px 2px 4px #1a1a1a;
+
+  span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    &:after {
+      content: "\00bb";
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+  }
+}
+.about-button1:hover span {
+  padding-right: 25px;
+  &:after {
+    opacity: 1;
+    right: 0;
+  }
+}
+
+// button 2nd
+
+.about-button2 {
+  border-radius: 4px;
+  background-color: #05aa81;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  text-shadow: 2px 2px 4px #1a1a1a;
+
+  span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    &:after {
+      content: "\00bb";
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+  }
+}
+.about-button2:hover span {
+  padding-right: 25px;
+  &:after {
+    opacity: 1;
+    right: 0;
+  }
+}
+
+// Buttons code
+
+@media screen and (max-width: 500px) {
+  #first-header-image {
+    width: 100%;
+    height: 60vh;
+  }
+}

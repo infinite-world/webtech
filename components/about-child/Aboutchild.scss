@@ -1,0 +1,68 @@
+.aboutchild-parallax {
+  /* The image used */
+  background-image: url("./image/aboutpage.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#firt-aboutchild-image-text {
+  height: 800px;
+  background-color: rgb(241, 240, 240);
+  font-size: 36px;
+  color: #333;
+  text-align: center;
+}
+
+.aboutchild-firstgrid-text {
+  font-size: 20px;
+  word-spacing: 0px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#aboutchild-second-grid1 {
+  height: 200px;
+  width: 530px;
+  margin-left: 10%;
+  
+  margin-top: 10%;
+}
+
+#aboutchild-inner-text-second {
+  padding-top: 3%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 2px 4px #3f3e3e;
+  font-size: calc(20px + 1.5vw);
+}
+
+.aboutchild-parallax1 {
+  /* The image used */
+  background-image: url("./image/leonardo-dicaprio-leonardo-5627.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.beautylines{
+  color: rgb(255, 123, 0);
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+@media screen and (max-width: 800px) {
+    #aboutchild-second-grid1  {
+    margin-left: 0px;
+    width: 460px;
+  }
+}
